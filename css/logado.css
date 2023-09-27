@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.success-message {
+  font-size: 24px;
+  color: #4CAF50;
+}
+
+.logout-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.logout-button:hover {
+  background-color: #45a049;
+}
+
+.logout-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #25992b; 
+  color: #ffffff; 
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; 
+}
+
+.logout-button:hover {
+  transform: scale(1.1); 
+}
